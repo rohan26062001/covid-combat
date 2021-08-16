@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/title.png" type="image/x-icon" />
+
+    <!-- style.css Inclusion -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+
+    <title>COVID Project App</title>
+</head>
+
+<style>
+
+</style>
+
+<body onload="preLoader();">
+    <!-- Preloader -->
+    <div id="loading"></div>
+
+    <!-- Navbar Start -->
+    <section>
+        <nav class="navbar navbar-expand-md navbar-light bg-light font-weight-bold" id="nav">
+            <a href="#" class="navbar-brand">
+                <img src="../img/title.png" width="45" alt="covid" class="d-inline-block align-middle mr-2" style="border-radius:50%;">
+                <span>COVID Project App</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PHP/stats.php">Covid Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Vaccination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Oxygen Supply</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Covid Meals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Covid Hospitals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Covid Symptom Tracker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Stay Healthy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar End -->
+
+    <!-- About Us Page -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide my-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner bg-light py-5">
+                <div class="carousel-item active py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <img src="../img/contributors/rohan.jpg" class="w-100 h-100" style="border-radius: 20px;" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 my-auto">
+                                <h2>Rohan Das</h2>
+                                <p>Rohan is a pre-final year student at The Institute of Engineering and Management, Kolkata. He has a great interest in technology and he is passionate about coding. He also a keen interest in Web Development and wish to
+                                    learn and gain experience in these fields.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <img src="../img/contributors/priyanka.jpg" class="w-100 h-100" style="border-radius: 20px;" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 my-auto">
+                                <h2>Priyanka Roy</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <img src="../img/contributors/anand.jpg" class="w-100 h-100" style="border-radius: 20px;" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 my-auto">
+                                <h2>Abhishek Anand</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- Preloader JS Start -->
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function preLoader() {
+            preloader.style.display = 'none';
+        };
+    </script>
+    <!-- Preloader JS End -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
